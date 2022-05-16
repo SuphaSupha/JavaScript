@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+
+    <style>
+      .field {
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Salary form</h1>
+    <form>
+      <div class="field">
+        <label for="workingField">Working field</label>
+        <select name="workingField">
+          <option value="managment">Managment</option>
+          <option value="it">IT</option>
+          <option value="construction">Construction</option>
+          <option value="sales">Sales</option>
+        </select>
+      </div>
+      <div>
+        <label for="position">Position</label>
+        <input type="text" name="position" required />
+      </div>
+      <div>
+        <p><strong>Gender</strong></p>
+        <div>
+          <input type="radio" name="gender" value="female" required />
+          <label>Female</label>
+        </div>
+        <div>
+          <input type="radio" name="gender" value="male" required />
+          <label>Male</label>
+        </div>
+        <div>
+          <input type="radio" name="gender" value="other" required />
+          <label>Other</label>
+        </div>
+        <div class="field">
+          <label for="expirience">Work expirience</label>
+          <input type="number" name="expirience" required />
+        </div>
+        <button type="submit" value="check salaray"></button>
+      </div>
+    </form>
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Form exemple</h1>
+    <h2 id="Example-result"></h2>
+    <form id="example">
+      <div class="inputField">
+        <label for="name">Vardas</label>
+        <input type="text" name="name" />
+      </div>
+      <div class="inputField">
+        <label for="surname">Pavardė</label>
+        <input type="text" name="surname" />
+      </div>
+      <button type="submit">Submit person</button>
+    </form>
+
+    <h1>Aditional Form</h1>
+    <h2 id="add-result"></h2>
+    <fieldset>
+    <form id="add-form">
+      <div class="inputField">
+        <label for="favouriteNumber">Username</label>
+        <input type="number" name="favouriteNumber" required />
+      </div>
+      <div class="multiple-Field">
+        <div>
+          <input type="radio" name="gender" value="Male" required />
+          <label>Male</label>
+          <input type="radio" name="gender" value="Female" required />
+          <label>Female</label>
+          <input type="radio" name="gender" value="Other" required />
+          <label>Other</label>
+        </div>
+      </div>
+    </fieldset>
+      <Fieldset>
+          <legend>Fruit</legend>
+      <div class="multiple-Field">
+        <div>
+          <input type="checkbox" name="fruit" value="Apple" />
+          <label>Male</label>
+        </div>
+        <div>
+          <input type="checkbox" name="fruit" value="Banana" />
+          <label>Female</label>
+        </div>
+        <div>
+          <input type="checkbox" name="fruit" value="Orange" />
+          <label>Other</label>
+        </div>
+        </div>
+      </div>
+      <input type="submit" value="Register" />
+    </form>
+    </Fieldset>
+    <script src="./script.js"></script>
+  </body>
+</html>

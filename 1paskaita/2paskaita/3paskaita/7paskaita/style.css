@@ -1,0 +1,7 @@
+.inputField, .multiple-Field {
+    margin-bottom: 16px;
+}
+
+.inputField label  {
+    display: block;
+}
