@@ -11,7 +11,7 @@ const person = {
 const people = [
     {id: 1, name: "Edvinas", surname: "Vaiciunas", age: 29,},
     {id: 2, name: "Jonas", surname: "Jonaitis", age: 14,},
-    { id: 3,name: "Antanas",surname: "Antanaitis",age: 33,},
+    {id: 3,name: "Antanas",surname: "Antanaitis",age: 33,},
 ]
 //forEach 
 // const firstItem = people[0];
