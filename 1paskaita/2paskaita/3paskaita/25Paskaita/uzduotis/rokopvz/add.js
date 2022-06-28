@@ -15,11 +15,17 @@ const handleSubmitCar = (event) => {
   fetch("https://olive-bead-glazer.glitch.me/", params)
     .then((resp) => resp.json())
     .then((response) => {
+      const header = document.createElement("h1");
+      header.textContent = "Sėkmingai užpildyta";
+      document.body.prepend(header);
       //viskas gerai
       //iskviesk funcija kuri parodys sekmes pranesima
       console.log(response);
     })
     .catch((error) => {
+      const header = document.createElement("h1");
+      header.textContent = "Ivyko klaida";
+      document.body.prepend(header);
       //kazkas blogai
       //iskviesk funcija kuri parodys nesekmes pranesima
       console.error(error);

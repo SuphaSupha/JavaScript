@@ -1,4 +1,3 @@
-
 //  Inicializavimas ; sąliga ; išraiška ; i= iteratorius (i;j;k) (i++ - sudetis (i=i+1;))
 // +=    x += y
 // -=    x -= y
@@ -16,18 +15,19 @@
 //     console.log(i)
 // }
 
+const dogName = "MoonCake";
+const repeat = 5;
+let result = "";
 
-// const dogName = "MoonCake"; 
-// const repeat = 5;
-// let result = "";
-
-// for ( let i = 0; i < repeat; i++) {
-//     result += `${dogName}, `;
-//     if(i === repeat -1){
-//         // jei esame paskutineme cikle
-//         result += `${dogName}.`
-//     } else { result += `${dogName},`}
-// }
+for (let i = 0; i < repeat; i++) {
+  result += `${dogName}, `;
+  if (i === repeat - 1) {
+    // jei esame paskutineme cikle
+    result += `${dogName}.`;
+  } else {
+    result += `${dogName},`;
+  }
+}
 
 // a = a + b
 // "" = "" + "Mooncake"
@@ -35,7 +35,7 @@
 // "MooncakeMooncake" = "MooncakeMooncake" + "Mooncake"
 // "MooncakeMooncakeMooncake" = "MooncakeMooncakeMooncake" + "Mooncake"
 // "MooncakeMooncakeMooncakeMooncake" = "MooncakeMooncakeMooncakeMooncake" + "Mooncake"
-// console.log(result);
+console.log(result);
 // const start = 1
 // const count = 1000
 // let result = 0
@@ -45,7 +45,7 @@
 //     console.log(i)
 // }
 // console.log(result)
-// let  i = 0; 
+// let  i = 0;
 
 // while ( i < 10) {
 //     console.log(i);
@@ -61,7 +61,7 @@
 //     console.log(i)
 // }
 
-//2roko uzduotis 
+//2roko uzduotis
 // for( let i = 9; i > 0 ; i-=1) {
 //     console.log(`"hello" ${i}`)
 // }
@@ -72,9 +72,8 @@
 //   return message;
 // }
 
-
 // console.log(getLaugh(4) + "!");
-//1uzduotis 
+//1uzduotis
 // let combo = "";
 // let repeat = 3;
 
